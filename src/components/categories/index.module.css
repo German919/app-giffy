@@ -1,0 +1,35 @@
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+.containerList{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:65%;
+    flex-wrap: wrap;
+    gap:15px;
+    margin-top:-15px;
+    padding-left: 0px;
+}
+
+.containerList li, a{
+    text-decoration: none;
+    list-style:none;
+    font-size:1rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.list{
+    color:rgb(193, 215, 236)
+}
+.list:hover{
+    color:rgb(82, 199, 199)
+}
+
+.active{
+    color:rgb(230, 78, 78)
+}

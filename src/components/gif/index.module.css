@@ -1,0 +1,23 @@
+.container{
+    margin: 10px;
+    border-left: 1px solid #6B90AA;
+    border-top: 1px solid #6B90AA;
+    border-right: 3px solid #6B90AA;
+    border-top-right-radius: 5px;
+    border-bottom: 2px solid #6B90AA;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
+}
+
+.imagen {
+    border-top: .1px solid #252525;
+    height:170px;
+}
+
+.title{
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #E580EF
+}
